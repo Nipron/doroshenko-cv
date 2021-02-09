@@ -1,0 +1,61 @@
+.wrap {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.5rem;
+    width: calc(100vw - 80px);
+    max-width: 560px;
+    height: calc(75vw - 60px);
+    max-height: 382px;
+}
+
+.card {
+    color: white;
+    display: grid;
+    grid-template-rows: 2fr 10fr 3fr;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: "h h"
+                         "p d"
+                         "i i";
+    height: 100%;
+    width: 100%;
+    background: #222;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: crimson;
+}
+
+.heading {
+    grid-area: h;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.pictureBox {
+    grid-area: p;
+}
+
+.picture {
+    width: 100%%;
+    height: 100%;
+    grid-area: p;
+    padding: 0.6rem
+}
+
+.description {
+    grid-area: d;
+    padding: 0.4rem 0.8rem 0 0.2rem;
+    text-align: justify;
+    font-size: 0.75rem;
+    text-indent: 0.4rem;
+}
+
+.icons {
+    grid-area: i;
+}
