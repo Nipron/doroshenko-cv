@@ -1,5 +1,5 @@
 .youTube {
-    background: white;
+    background: green;
     margin-bottom: 2em;
 }
 
@@ -8,6 +8,21 @@
     width: 100%;
     text-align: center;
     margin: 2em 0 1em;
+    background-color: yellow;
+}
+
+.channelBox {
+    padding: 1em;
+    background: #2196f3;
+    max-width: 15em;
+    margin: 1em;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.youtubeIcon {
+    width: 12rem;
+    border-radius: 6rem;
 }
 
 .content {
@@ -15,12 +30,6 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
-.bookBox {
-    padding: 1em;
-    background: #2196f3;
-    max-width: 15em;
-    margin: 1em;
-    transition: 0.5s;
-}
