@@ -35,3 +35,24 @@
 img {
     max-width: 100%;
 }
+
+@media (max-width: 991px) {
+    .heading h2 {
+        font-size: 24px;
+    }
+    .contentBx h3 {
+        font-size: 20px;
+    }
+    .about {
+        padding: 3rem;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        padding: 100px 20px;
+    }
+}
