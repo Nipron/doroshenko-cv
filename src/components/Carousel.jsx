@@ -21,7 +21,7 @@ const Carousel = () => {
                 class="carousel owl-carousel"
                 loop="true"
                 center="true"
-                //autoplay="true"
+                autoplay="true"
                 autoWidth="true"
                 /*autoplayTimeout="5000"*/>
 

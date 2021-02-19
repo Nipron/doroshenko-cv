@@ -16,7 +16,7 @@ import Vladilen from "../../../images/YouTube/Vladilen.jpg";
 
 const YouTube = () => {
     return (
-        <section className={s.youTube}>
+        <section id="youtube" className={s.youTube}>
             <div className={s.heading}>
                 <h2>YouTube channels that I've spent a total of at least 1200 hours on</h2>
             </div>

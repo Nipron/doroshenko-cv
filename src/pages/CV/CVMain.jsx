@@ -6,6 +6,7 @@ import SliderSlick from "../../components/Slider/SliderSlick";
 import Carousel from "../../components/Carousel";
 import Books from "./Books/Books";
 import YouTube from "./YouTube/YouTube";
+import Boutique from "./Boutique/Boutique";
 
 const CVMain = () => {
     return (
@@ -13,6 +14,7 @@ const CVMain = () => {
             <Header/>
             <Hello/>
             <About/>
+            <Boutique/>
             <Carousel/>
             <YouTube/>
             <Books/>

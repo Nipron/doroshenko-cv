@@ -8,9 +8,10 @@ const Hello = () => {
     const typing = ["Rookie", "Developer", "Enthusiast", "Apprentice", "Dreamer"]
 
     return (
-        <section className={s.banner}>
+        <section id="hello" className={s.banner}>
             <div className={s.textBx}>
-                <h2>Hello, I'm<br/><span>Vitalii Doroshenko</span></h2>
+                <h2>Hello, I'm</h2>
+                <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
                 <Link className={s.btn}>About me</Link>
             </div>

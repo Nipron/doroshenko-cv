@@ -13,12 +13,21 @@
     font-size: 3em;
     color: white;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 .banner h2 span {
     font-size: 1.5em;
     font-weight: 700;
+    max-width: 300px;
+    color: red;
+}
+
+.vit {
+    font-size: 4.5em;
+    font-weight: 700;
+    max-width: 52vw;
+    color: white;
 }
 
 .banner h3 {
@@ -43,11 +52,16 @@
 
 @media (max-width: 991px) {
     .banner {
+        background-position: right -100px top;
         padding: 150px 50px 100px;
     }
     .banner h2 {
         font-size: 1.5em;
     }
+    .vit {
+        font-size: 2.25em;
+    }
+
     .banner h3 {
         font-size: 1em;
     }
@@ -61,5 +75,6 @@
 @media (max-width: 600px) {
     .banner {
         padding: 150px 20px 100px;
+        background-position: right -180px top;
     }
 }

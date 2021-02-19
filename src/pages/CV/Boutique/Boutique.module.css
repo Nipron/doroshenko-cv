@@ -1,17 +1,16 @@
 .wrap {
-    vertical-align: middle;
-    text-align: center;
-    padding: 0.5rem;
-    width: calc(100vw - 80px);
-    max-width: 560px;
-    height: calc(75vw - 60px);
-    max-height: 382px;
+    minx-width: 560px;
+    min-height: 382px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .card {
     color: white;
     display: grid;
-    grid-template-rows: 2fr 10fr 82px;
+    grid-template-rows: 2fr 10fr 3fr;
     grid-template-columns: 3fr 2fr;
     grid-template-areas: "h h"
                          "p d"

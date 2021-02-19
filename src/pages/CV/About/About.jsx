@@ -20,7 +20,7 @@ const About = () => {
     console.log(func(ttt));
 
     return (
-        <section className={s.about}>
+        <section id="about" className={s.about}>
             <div className={s.heading}>
                 <h2>About Me</h2>
             </div>
