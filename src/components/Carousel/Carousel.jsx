@@ -1,21 +1,19 @@
-import React, {useEffect, useState} from 'react';
 import "./Carousel.scss";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import s from "./AppCard.module.css";
-import ss from "./CarouselStyle.module.css";
-import boutique from "../images/AppThumbnails/boutique.jpg";
-import beerstore from "../images/AppThumbnails/beerstore.jpg";
-import bootstrap from "../images/Logos/bootstrap.png";
-import styled from "../images/Logos/styled.png";
-import react from "../images/Logos/react.png";
-import paypal from "../images/Logos/paypal.png";
+import boutique from "../../images/AppThumbnails/boutique.jpg";
+import beerstore from "../../images/AppThumbnails/beerstore.jpg";
+import bootstrap from "../../images/Logos/bootstrap.png";
+import styled from "../../images/Logos/styled.png";
+import react from "../../images/Logos/react.png";
+import paypal from "../../images/Logos/paypal.png";
 
 const Carousel = () => {
 
     return (
-        <section className={ss.myApps}>
+        <section className={s.myApps}>
             <OwlCarousel
                 items="1"
                 class="carousel owl-carousel"

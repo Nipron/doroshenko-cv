@@ -1,20 +1,20 @@
 .pages {
     position: absolute;
-    margin: 340px 20px;
-    top: 0; bottom: 0; left: 0;
-    width: 500px;
+    margin: 0px 20px 80px;
+    bottom: 0; left: 0;
+    width: 330px;
     text-align: left;
 }
 
 .pages a{
     font-family: Oswald, sans-serif;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     color: rgb(192, 150, 30);
-    text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
     text-decoration: none;
     display: inline;
-    line-height: 3.6rem;
+    line-height: 2.2rem;
 }
 
 .pages span {
@@ -22,6 +22,8 @@
     font-weight: 700;
     display: block;
     font-size: 2.8rem;
+    color: rgb(45, 45, 90);
+    text-shadow: none;
 }
 
 .pages a:hover{

@@ -7,17 +7,18 @@
 }
 
 .doroshenko a{
-    font-family: Impact, sans-serif;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
     font-size: 4.5rem;
     color: rgb(192, 150, 30);
     text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
-    text-decoration: none;
+    text-decoration: none !important;
     display: inline;
     line-height: 4.8rem;
 }
 
 .doroshenko span {
-    font-family: Impact, sans-serif;
+    font-family: Oswald, sans-serif;
     display: block;
 }
 

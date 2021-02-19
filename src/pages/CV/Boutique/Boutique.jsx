@@ -9,6 +9,7 @@ import paypal from "../../../images/Logos/paypal.png";
 const Boutique = () => {
     return (
         <section>
+            <div className="anchor" id="boutique" ></div>
             <div className={s.wrap}>
                 <div className={s.card}>
                     <div className={s.heading}>

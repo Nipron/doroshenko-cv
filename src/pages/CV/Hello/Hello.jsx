@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./Hello.module.css";
-import {Link} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import Typing from "../../../components/Typing/Typing";
 
 const Hello = () => {
@@ -13,7 +13,7 @@ const Hello = () => {
                 <h2>Hello, I'm</h2>
                 <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
-                <Link className={s.btn}>About me</Link>
+                <Link className={s.btn} to="#about" >About me</Link>
             </div>
         </section>
     );

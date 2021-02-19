@@ -3,7 +3,7 @@ import Hello from "./Hello/Hello";
 import Header from "./Header/Header";
 import About from "./About/About";
 import SliderSlick from "../../components/Slider/SliderSlick";
-import Carousel from "../../components/Carousel";
+import Carousel from "../../components/Carousel/Carousel";
 import Books from "./Books/Books";
 import YouTube from "./YouTube/YouTube";
 import Boutique from "./Boutique/Boutique";

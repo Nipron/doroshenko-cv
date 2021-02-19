@@ -31,9 +31,9 @@ const Header = () => {
             <ul className={menuStyle}>
                 <li><Link to="#hello" onClick={handleToggle}>Home</Link></li>
                 <li><Link to="#about" onClick={handleToggle}>About</Link></li>
-                <li><Link>Services</Link></li>
-                <li><Link to="#youtube" onClick={handleToggle}>YouTube</Link></li>
-                <li><Link>Testimonials</Link></li>
+                <li><Link to="#boutique">Projects</Link></li>
+                <li><Link to="#youtube" onClick={handleToggle}>Studying</Link></li>
+                <li><Link>Contacts</Link></li>
                 <li><Link to="/">Bender</Link></li>
             </ul>
         </header>

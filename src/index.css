@@ -19,6 +19,17 @@ code {
   caret-color: transparent;
 }
 
+a {
+  text-decoration-line: none !important;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -110px;
+  visibility: hidden;
+}
+
 section {
   padding: 2rem 10rem;
 }
