@@ -1,43 +1,56 @@
-.pages {
+.topFive {
     position: absolute;
-    margin: 340px 20px;
-    top: 0; bottom: 0; left: 0;
+    margin: 0px 20px 300px;
+    bottom: 0; left: 0;
     width: 500px;
     text-align: left;
 }
 
-.pages a{
+.topFive a{
     font-family: Oswald, sans-serif;
     font-weight: 700;
     font-size: 4.5rem;
     color: rgb(192, 150, 30);
     text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
-    text-decoration: none;
     display: inline;
     line-height: 3.6rem;
 }
 
-.pages span {
+.topFive span {
     font-family: Oswald, sans-serif;
     font-weight: 700;
     display: block;
     font-size: 2.8rem;
 }
 
-.pages a:hover{
+.topFive a:hover{
     cursor: pointer;
     color: rgb(222, 180, 60);
 }
 
-.text {
-    font-family: Impact, sans-serif;
-    font-size: 2.8rem;
-    color: rgb(45, 45, 90);
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .topFive {
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    .name {
-        color: black;
+@media screen and (min-width: 992px) and (max-height: 720px) {
+    .topFive {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topFive {
+        margin: 0px 10px 280px;
+    }
+
+    .topFive a{
+        font-size: 3.2rem;
+        line-height: 2.0rem;
+    }
+
+    .topFive span {
+        font-size: 2.0rem;
     }
 }
 

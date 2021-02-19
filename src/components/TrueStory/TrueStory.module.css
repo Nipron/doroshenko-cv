@@ -1,23 +1,22 @@
-.pages {
+.trueStory {
     position: absolute;
-    margin: 0px 20px 80px;
+    margin: 0px 20px 40px;
     bottom: 0; left: 0;
     width: 330px;
     text-align: left;
 }
 
-.pages a{
+.trueStory a{
     font-family: Oswald, sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     color: rgb(192, 150, 30);
     text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-    text-decoration: none;
     display: inline;
     line-height: 2.2rem;
 }
 
-.pages span {
+.trueStory span {
     font-family: Oswald, sans-serif;
     font-weight: 700;
     display: block;
@@ -26,20 +25,30 @@
     text-shadow: none;
 }
 
-.pages a:hover{
+.trueStory a:hover{
     cursor: pointer;
     color: rgb(222, 180, 60);
 }
 
-.text {
-    font-family: Impact, sans-serif;
-    font-size: 2.8rem;
-    color: rgb(45, 45, 90);
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .trueStory {
+        margin: 0px 15px 40px;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    .name {
-        color: black;
+@media screen and (max-width: 767px) {
+    .trueStory {
+        margin: 0px 10px 40px;
+        width: 260px;
+    }
+
+    .trueStory a{
+        font-size: 2.0em;
+        line-height: 2.2rem;
+    }
+
+    .trueStory span {
+        font-size: 2.2rem;
     }
 }
 
