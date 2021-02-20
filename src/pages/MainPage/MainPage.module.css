@@ -10,7 +10,7 @@
 .header {
     position: absolute;
     width: calc(100% - 40px);
-    width: 428px;
+    width: 410px;
     height: 739px;
   /*  margin: 20px;*/
     background-color: red;
