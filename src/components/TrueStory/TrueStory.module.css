@@ -39,7 +39,7 @@
 @media screen and (max-width: 780px) {
     .trueStory {
         margin: 0px 10px 30px;
-        width: 190px;
+        width: 180px;
     }
 
     .trueStory a{
@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 390px) {
     .trueStory {
-        width: 160px;
+        width: 165px;
     }
 
     .trueStory a{
