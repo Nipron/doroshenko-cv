@@ -28,11 +28,6 @@
     color: rgb(222, 180, 60);
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .topFive {
-    }
-}
-
 @media screen and (min-width: 992px) and (max-height: 720px) {
     .topFive {
         visibility: hidden;
