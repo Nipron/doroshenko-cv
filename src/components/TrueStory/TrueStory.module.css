@@ -30,6 +30,18 @@
     color: rgb(222, 180, 60);
 }
 
+@media screen and (min-width: 992px) and (max-height: 540px) {
+    .trueStory {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 991px) and (max-height: 480px) {
+    .trueStory {
+        visibility: hidden;
+    }
+}
+
 @media screen and (min-width: 780px) and (max-width: 991px) {
     .trueStory {
         margin: 0px 15px 40px;
