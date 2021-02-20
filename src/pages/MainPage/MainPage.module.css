@@ -41,7 +41,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 991px) and (max-height: 560px) {
+@media screen and (max-width: 991px) and (max-height: 100px) {
     .bender {
         margin: 10px 0 10px 10px;
         height: calc(100vh - 20px);

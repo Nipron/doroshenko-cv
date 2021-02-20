@@ -75,7 +75,7 @@
 @media (max-width: 600px) {
     .banner {
         padding: 150px 20px 100px;
-        background-position: right;
+        background-position: right 0px top;
         background: url("./../../../images/black2.jpg");
     }
 
