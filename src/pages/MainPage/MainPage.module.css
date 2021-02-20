@@ -10,9 +10,8 @@
 .header {
     position: absolute;
     width: calc(100% - 40px);
-    width: 328px;
-    height: 618px;
-    border: 2px solid yellow;
+    width: 338px;
+    height: 608px;
   /*  margin: 20px;*/
     background-color: red;
     top: 0;
@@ -24,8 +23,8 @@
    /* margin: 18vh auto; */
   /*  height: calc(82vh - 10px);*/
     background-color: lightblue;
-    width: 634px;
-    height: 330px;
+    width: 637px;
+    height: 333px;
   /*  border: 2px solid brown;*/
     top: 0; left: 0; bottom: 0; right: 0;
 }
