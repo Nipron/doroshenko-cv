@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 780px) {
     .topFive {
-        margin: 0px 10px 230px;
+        margin: 0px 20px 230px;
     }
 
     .topFive a{
@@ -45,7 +45,7 @@
     }
 
     .topFive span {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 390px) {
     .topFive {
-        margin: 0px 10px 210px;
+        margin: 0px 20px 200px;
     }
 
     .topFive a{
