@@ -22,13 +22,13 @@
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 781px) and (max-width: 991px) {
     .main {
-        width: 768px;
+        width: 781px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .main {
         width: 100vw;
     }
@@ -41,7 +41,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 776px) and (max-height: 412px) {
+@media screen and (max-width: 780px) and (max-height: 412px) {
     .bender {
         margin: 10px 0 10px 10px;
         height: calc(100vh - 20px);
