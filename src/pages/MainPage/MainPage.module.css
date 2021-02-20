@@ -49,7 +49,7 @@
 
     .header {
         position: absolute;
-        width: calc(100% - 240px);
+        width: calc(100% - 220px);
         margin: 20px;
         margin-left: 200px;
         top: 0;

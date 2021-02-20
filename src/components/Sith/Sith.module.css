@@ -33,3 +33,9 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) and (max-height: 600px) {
+    .sith {
+        visibility: hidden;
+    }
+}
+
