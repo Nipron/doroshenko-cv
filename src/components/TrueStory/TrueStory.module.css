@@ -58,3 +58,18 @@
     }
 }
 
+@media screen and (max-width: 390px) {
+    .trueStory {
+        width: 150px;
+    }
+
+    .trueStory a{
+        font-size: 1.1em;
+        line-height: 1.1rem;
+    }
+
+    .trueStory span {
+        font-size: 1.1rem;
+    }
+}
+

@@ -104,16 +104,20 @@
 
 @media screen and (max-width: 500px) {
     .doroshenko {
-        margin: 130px 20px;
+        margin: 160px 20px;
     }
 
     .doroshenko a {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 2.8rem;
+        line-height: 2.8rem;
     }
 
     .text {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+    }
+
+    .ent {
+        visibility: hidden;
     }
 }
 
@@ -123,7 +127,7 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 390px) {
     .doroshenko {
         margin: 130px 20px;
     }
