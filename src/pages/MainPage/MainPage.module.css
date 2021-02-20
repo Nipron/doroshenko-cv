@@ -40,6 +40,12 @@
     }
 }
 
+s.six {
+    height: 600px;
+    width: 600px;
+    background: red;
+}
+
 /* mobile */
 @media screen and (max-width: 991px) and (max-height: 100px) {
     .bender {
