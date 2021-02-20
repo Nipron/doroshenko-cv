@@ -21,8 +21,8 @@
 
 .bender {
     position: absolute;
-    margin: 18vh auto;
-    height: calc(82vh - 10px);
+   /* margin: 18vh auto; */
+  /*  height: calc(82vh - 10px);*/
     background-color: light-blue;
     width: 638x;
     height: 328px;
