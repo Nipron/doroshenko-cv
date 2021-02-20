@@ -68,12 +68,6 @@
     }
 }
 
-@media screen and (max-width: 652px) and (min-height: 570px) {
-    .textBx {
-        padding-top: 54vh;
-    }
-}
-
 @media screen and (min-width: 653px) and (max-width: 991px) {
     .vit {
         max-width: 40vw;
@@ -81,5 +75,17 @@
 
     .banner {
         padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 652px) and (min-height: 570px) {
+    .textBx {
+        padding-top: 54vh;
+    }
+}
+
+@media screen and (max-width: 390px) and (min-height: 480px) {
+    .textBx {
+        padding-top: 70vh;
     }
 }
