@@ -1,4 +1,3 @@
-import './App.css';
 import MainPage from "./pages/MainPage/MainPage";
 import {Route} from "react-router";
 import CVMain from "./pages/CV/CVMain";

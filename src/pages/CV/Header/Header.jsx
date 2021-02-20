@@ -25,6 +25,7 @@ const Header = () => {
         setMenuStyle(window.innerWidth < 992 && menuStyle === s.menu ? s.menu + ' ' + s.activeMenu : s.menu);
     }
 
+
     return (
         <div className={headerStyle}>
             <Link className={s.logo}>Portfolio</Link>
