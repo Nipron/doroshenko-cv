@@ -24,9 +24,9 @@
 }
 
 .vit {
-    font-size: 4.5em;
+    font-size: 4.1em;
     font-weight: 700;
-    max-width: 55vw;
+    max-width: 52vw;
     color: white;
 }
 
@@ -55,7 +55,7 @@
         font-size: 1.5em;
     }
     .vit {
-        font-size: 2.25em;
+        font-size: 2.1em;
     }
 
     .banner h3 {
@@ -68,9 +68,18 @@
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 652px) and (min-height: 570px) {
+    .textBx {
+        padding-top: 54vh;
+    }
+}
+
+@media screen and (min-width: 653px) and (max-width: 991px) {
     .vit {
-        font-size: 1.8em;
-        max-width: 52vw;
+        max-width: 40vw;
+    }
+
+    .banner {
+        padding-left: 40px;
     }
 }
