@@ -10,7 +10,6 @@ import Sith from "../../components/Sith/Sith";
 const Main = () => {
     return (
         <div className={s.main}>
-            <div className={s.six}>600</div>
             <img className={s.header} src={header} alt="header"/>
             <img className={s.bender} src={bender} alt="bender"/>
             <Doroshenko/>

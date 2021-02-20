@@ -10,7 +10,10 @@
 .header {
     position: absolute;
     width: calc(100% - 40px);
+    width: 600px;
+    height: 600px;
     margin: 20px;
+    background-color: red;
     top: 0;
     left: 0;
 }
@@ -38,12 +41,6 @@
         margin: 15vh auto;
         height: calc(85vh - 20px);
     }
-}
-
-s.six {
-    height: 600px;
-    width: 600px;
-    background: red;
 }
 
 /* mobile */
