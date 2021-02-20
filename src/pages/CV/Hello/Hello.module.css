@@ -1,7 +1,8 @@
 .banner {
     position: relative;
-    background: url("./../../../images/black2.jpg");
+    background: url("./../../../images/black.jpg");
     background-size: cover;
+    height: 100vh;
     background-position: right;
     display: flex;
     justify-content: space-between;
@@ -52,7 +53,7 @@
 @media (max-width: 991px) {
     .banner {
         background-position: right -100px top;
-        padding: 150px 50px 100px;
+        height: calc(100vh - 200px);
     }
     .banner h2 {
         font-size: 1.5em;

@@ -5,12 +5,10 @@ import Typing from "../../../components/Typing/Typing";
 
 const Hello = () => {
 
-    let height = window.innerHeight;
-
     const typing = ["Rookie", "Developer", "Enthusiast", "Apprentice", "Dreamer"]
 
     return (
-        <section id="hello" className={s.banner} style={{height: height}}>
+        <section id="hello" className={s.banner}>
             <div className={s.textBx}>
                 <h2>Hello, I'm</h2>
                 <div className={s.vit}>Vitalii Doroshenko</div>
