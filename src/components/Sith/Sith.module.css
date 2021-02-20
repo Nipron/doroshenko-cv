@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 768px) and (max-height: 512px) {
+@media screen and (max-width: 776px) and (max-height: 412px) {
     .sith {
         visibility: hidden;
     }
