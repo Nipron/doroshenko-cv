@@ -43,7 +43,7 @@
     }
 
     .trueStory a{
-        font-size: 1.5em;
+        font-size: 1.5rem;
         line-height: 1.5rem;
     }
 
@@ -58,13 +58,13 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 390px) {
     .trueStory {
-        width: 150px;
+        width: 140px;
     }
 
     .trueStory a{
-        font-size: 1.3em;
+        font-size: 1.3rem;
         line-height: 1.3rem;
     }
 

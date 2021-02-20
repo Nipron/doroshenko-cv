@@ -39,6 +39,12 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .sith {
+        width: 90px;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .sith {
         width: 80px;
