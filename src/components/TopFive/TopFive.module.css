@@ -61,3 +61,18 @@
     }
 }
 
+@media screen and (max-width: 390px) {
+    .topFive {
+        margin: 0px 10px 210px;
+    }
+
+    .topFive a{
+        font-size: 2.3rem;
+        line-height: 1.6rem;
+    }
+
+    .topFive span {
+        font-size: 1.4rem;
+    }
+}
+
