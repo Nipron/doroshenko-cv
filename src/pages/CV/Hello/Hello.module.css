@@ -83,7 +83,7 @@
     }
 }
 
-    @media screen and (max-width: 652px) and (min-height: 570px) {
+@media screen and (max-width: 652px) and (min-height: 550px) {
     .textBx {
         padding-top: 54vh;
     }
