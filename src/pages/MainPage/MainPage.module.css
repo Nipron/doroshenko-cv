@@ -11,7 +11,7 @@
     position: absolute;
     width: calc(100% - 40px);
     width: 328px;
-    height: 638px;
+    height: 628px;
     border: 2px solid yellow;
   /*  margin: 20px;*/
     background-color: red;
@@ -24,8 +24,8 @@
    /* margin: 18vh auto; */
   /*  height: calc(82vh - 10px);*/
     background-color: lightblue;
-    width: 638x;
-    height: 328px;
+    width: 638px;
+    height: 332px;
     border: 2px solid brown;
     top: 0; left: 0; bottom: 0; right: 0;
 }
