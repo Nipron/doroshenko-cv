@@ -67,7 +67,7 @@
         left: calc(-100% - 100px);
         top: 75px;
         display: block;
-        padding: 50px 0px;
+        padding: 40px 0px;
         text-align: center;
         width: 100%;
         height: calc(100vh - 175px);
@@ -80,7 +80,7 @@
     .menu li a {
         color: #111;
         font-size: 24px;
-        margin: 10px;
+        margin: 2px;
     }
 
     .toggle {

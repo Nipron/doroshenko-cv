@@ -33,6 +33,14 @@
     color: rgb(45, 45, 90);
 }
 
+.ent {
+    visibility: hidden;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgb(45, 45, 90);
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
    .doroshenko {
        margin: 215px 15px;
@@ -69,6 +77,11 @@
     }
 
     .text {
-        font-size: 2.2rem;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .ent {
+        visibility: visible;
     }
 }
