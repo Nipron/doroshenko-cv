@@ -76,6 +76,7 @@
     .banner {
         padding: 150px 20px 100px;
         background-position: right;
+        background: url("./../../../images/black2.jpg");
     }
 
     .textBx {
