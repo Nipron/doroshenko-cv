@@ -1,6 +1,6 @@
 .banner {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background: url("./../../../images/black2.jpg");
     background-size: cover;
     background-position: right;
