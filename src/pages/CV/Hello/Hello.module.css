@@ -2,7 +2,7 @@
     position: relative;
     background: url("./../../../images/black.jpg");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-position: right;
     display: flex;
     justify-content: space-between;
@@ -51,10 +51,6 @@
 }
 
 @media (max-width: 991px) {
-    .banner {
-        background-position: right;
-        height: calc(100vh - 200px);
-    }
     .banner h2 {
         font-size: 1.5em;
     }
@@ -73,11 +69,6 @@
 }
 
 @media (max-width: 600px) {
-    .banner {
-        padding: 150px 20px 100px;
-        background-position: right;
-    }
-
     .vit {
         font-size: 1.8em;
         max-width: 52vw;

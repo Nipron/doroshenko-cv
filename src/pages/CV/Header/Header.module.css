@@ -64,13 +64,13 @@
 
     .menu {
         position: fixed;
-        left: calc(-100% - 100px);
+        left: calc(-100%);
         top: 75px;
         display: block;
         padding: 40px 0px;
         text-align: center;
         width: 100%;
-        height: calc(100vh - 156px);
+        height: calc(100vh - 75px);
         background-color: white;
         transition: 0.5s;
         z-index: 999;
@@ -103,10 +103,6 @@
 
     .sticky .toggle {
         filter: invert(1);
-    }
-
-    section {
-        padding: 100px 30px;
     }
 }
 
