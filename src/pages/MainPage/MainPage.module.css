@@ -23,6 +23,10 @@
     position: absolute;
     margin: 18vh auto;
     height: calc(82vh - 10px);
+    background-color: light-blue;
+    width: 638x;
+    height: 328px;
+    border: 2px solid brown;
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
