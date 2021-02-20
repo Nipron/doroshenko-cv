@@ -39,16 +39,16 @@
 @media screen and (max-width: 767px) {
     .trueStory {
         margin: 0px 10px 30px;
-        width: 210px;
+        width: 190px;
     }
 
     .trueStory a{
-        font-size: 1.6em;
-        line-height: 1.7rem;
+        font-size: 1.5em;
+        line-height: 1.5rem;
     }
 
     .trueStory span {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 

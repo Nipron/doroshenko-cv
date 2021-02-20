@@ -59,15 +59,12 @@
     }
 
     .doroshenko a {
-        font-size: 2.3rem;
-        color: rgb(192, 150, 30);
-        text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
-        display: inline;
-        line-height: 3rem;
+        font-size: 2rem;
+        line-height: 2.6rem;
     }
 
     .text {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
