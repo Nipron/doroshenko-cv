@@ -52,7 +52,7 @@
 
 @media (max-width: 991px) {
     .banner {
-        background-position: right -100px top;
+        background-position: right;
         height: calc(100vh - 200px);
     }
     .banner h2 {
