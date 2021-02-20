@@ -11,7 +11,7 @@
     position: absolute;
     width: calc(100% - 40px);
     width: 328px;
-    height: 628px;
+    height: 618px;
     border: 2px solid yellow;
   /*  margin: 20px;*/
     background-color: red;
@@ -26,7 +26,7 @@
     background-color: lightblue;
     width: 634px;
     height: 330px;
-    border: 2px solid brown;
+  /*  border: 2px solid brown;*/
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
