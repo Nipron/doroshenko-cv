@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width: 768px) and (max-height: 412px) {
+@media screen and (max-width: 768px) and (max-height: 512px) {
     .doroshenko {
         margin: 155px 20px;
     }
