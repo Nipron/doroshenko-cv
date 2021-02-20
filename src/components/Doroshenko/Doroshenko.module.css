@@ -47,11 +47,11 @@
 
 @media screen and (max-width: 767px) {
     .doroshenko {
-        margin: 190px 20px;
+        margin: 170px 20px;
     }
 
     .doroshenko a {
-        font-size: 2.9rem;
+        font-size: 2.6rem;
         color: rgb(192, 150, 30);
         text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
         display: inline;

@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const TopFive = () => {
     return (
         <div className={s.topFive}>
-            <Link to="/cv#youtube">TOP-FIVE <span>React projects</span></Link>
+            <Link to="/cv#boutique">TOP-FIVE <span>React projects</span></Link>
         </div>
     );
 };

@@ -45,12 +45,12 @@
     }
 
     .topFive a{
-        font-size: 3.2rem;
-        line-height: 2.0rem;
+        font-size: 2.8rem;
+        line-height: 1.8rem;
     }
 
     .topFive span {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
 }
 
