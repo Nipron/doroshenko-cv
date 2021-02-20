@@ -77,4 +77,8 @@
         padding: 150px 20px 100px;
         background-position: right -180px top;
     }
+
+    .textBx {
+        padding-top: 350px;
+    }
 }
