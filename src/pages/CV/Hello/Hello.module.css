@@ -13,7 +13,7 @@
     font-size: 3em;
     color: white;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.6em;
 }
 
 .banner h2 span {
@@ -28,12 +28,14 @@
     font-weight: 700;
     max-width: 52vw;
     color: white;
+    line-height: 1.1em;
 }
 
 .banner h3 {
     font-size: 2em;
     color: white;
     font-weight: 500;
+    line-height: 1.8em;
 }
 
 .btn {
