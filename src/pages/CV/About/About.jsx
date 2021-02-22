@@ -5,22 +5,6 @@ import {HashLink as Link} from "react-router-hash-link";
 
 const About = () => {
 
-    const ttt = [1, 2, 3, 4, 4, 1, 4, 3, 1, 4, 1, 4, 4, 4, 4, 4, 0, 7]
-
-    function func(arr) {
-        let uniq = {}
-        arr.forEach(el => {
-            (!uniq[el]) ? uniq[el] = 1 : uniq[el]++
-        })
-        let max = 0;
-        for (let key in uniq) {
-            if (uniq[key] > max) max = uniq[key]
-        }
-        return max
-    }
-
-    console.log(func(ttt));
-
     return (
         <section className={s.about}>
             <div className="anchor" id="about"></div>
@@ -40,7 +24,7 @@ const About = () => {
                         their application in real life (you can find all source code at my
                         <a className={s.gitHubLink}
                             target="_blank"
-                           href="https://github.com/Nipron"> GitHub</a>.</p>
+                           href="https://github.com/Nipron"> GitHub</a>).</p>
                     <div className={s.btnWrap}>
                         <Link className={s.btn}>Download full CV</Link>
                     </div>
