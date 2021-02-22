@@ -31,7 +31,7 @@ const About = () => {
                 <div className={s.w50}>
                     <img src={selfie} className="img"/>
                 </div>
-                <div className={s.contentBx + ' ' + s.w50}>
+                <div className={s.contentBox + ' ' + s.w50}>
                     <p>Hi, I’m Vitalii! I am a React autodidact with no commercial experience, but, nevertheless,
                         feel myself ready to become a full-time React developer.</p>
                     <p>I’ve been studying React (along with HTML, CSS, vanilla JS, Redux, Node, APIs, DBs, git and

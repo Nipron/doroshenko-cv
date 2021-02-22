@@ -19,15 +19,10 @@
     justify-content: space-between;
 }
 
-.contentBx {
-    padding-left: 30px;
+.contentBox {
+    padding: 5px 0 0 25px;
     text-indent: 1.5em;
     text-align: justify;
-}
-
-.contentBx h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
 }
 
 .w50 {
@@ -68,12 +63,6 @@ img {
     .heading h2 {
         font-size: 24px;
     }
-    .contentBx h3 {
-        font-size: 20px;
-    }
-    .about {
-        padding: 3rem;
-    }
     .content {
         flex-direction: column;
     }
@@ -81,6 +70,6 @@ img {
 
 @media (max-width: 600px) {
     .about {
-        padding: 100px 20px;
+        padding: 30px 20px;
     }
 }
