@@ -9,7 +9,7 @@ const Hello = () => {
 
     return (
         <section id="hello" className={s.banner}>
-            <div className={s.textBx}>
+            <div className={s.textBox}>
                 <h2>Hello, I'm</h2>
                 <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
