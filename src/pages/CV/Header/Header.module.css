@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: calc(100% - 100px);
-    padding: 40px 50px;
+    padding: 30px 50px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -59,15 +59,15 @@
 @media (max-width: 991px) {
     .header,
     .header .sticky {
-        padding: 20px 50px;
+        padding: 10px 50px;
     }
 
     .menu {
         position: fixed;
         left: calc(-100%);
-        top: 75px;
+        top: 45px;
         display: block;
-        padding: 15px 0px;
+        padding: 15px 0;
         text-align: center;
         width: 100%;
         height: calc(100vh - 75px);
