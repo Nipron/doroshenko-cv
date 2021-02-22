@@ -17,7 +17,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
 }
 
-.header .logo {
+.logo {
     color: white;
     font-size: 24px;
     text-transform: uppercase;
@@ -62,6 +62,10 @@
         padding: 10px 50px;
     }
 
+    .logo {
+        margin-left: -25px;
+    }
+
     .menu {
         position: fixed;
         left: calc(-100%);
@@ -89,13 +93,14 @@
         background: url("./../../../images/menu.png") no-repeat center;
         background-size: 30px;
         cursor: pointer;
-        margin-right: -40px;
+        margin-right: -35px;
     }
 
     .active {
         background: url("./../../../images/close.png") no-repeat center;
         background-size: 25px;
         cursor: pointer;
+        margin-right: -40px;
     }
 
     .activeMenu {
