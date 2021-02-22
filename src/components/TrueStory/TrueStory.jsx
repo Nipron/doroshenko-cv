@@ -6,7 +6,7 @@ const TrueStory = () => {
     return (
         <div className={s.trueStory}>
             <Link to="/cv#about">Software Engineer in your late 30’s?
-                Easy as an inverting a binary tree<span>A true story</span></Link>
+                Easy as an inverting a binary tree!<span>A true story</span></Link>
         </div>
     );
 };

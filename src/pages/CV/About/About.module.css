@@ -1,5 +1,5 @@
 .about {
-    padding: 10rem;
+    padding: 4rem;
 }
 
 .heading {
@@ -20,7 +20,9 @@
 }
 
 .contentBx {
-    padding-right: 30px;
+    padding-left: 30px;
+    text-indent: 1.5em;
+    text-align: justify;
 }
 
 .contentBx h3 {
@@ -35,6 +37,32 @@
 img {
     max-width: 100%;
 }
+
+.btnWrap {
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-indent: 0;
+}
+
+.gitHubLink {
+    color: #2196f3;;
+}
+
+
 
 @media (max-width: 991px) {
     .heading h2 {

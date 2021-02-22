@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./About.module.css";
-import pivo from "./../../../images/pivo.jpg";
+import selfie from "./../../../images/selfie.jpg";
+import {HashLink as Link} from "react-router-hash-link";
 
 const About = () => {
 
@@ -17,6 +18,7 @@ const About = () => {
         }
         return max
     }
+
     console.log(func(ttt));
 
     return (
@@ -26,18 +28,24 @@ const About = () => {
                 <h2>About Me</h2>
             </div>
             <div className={s.content}>
-                <div className={s.contentBx + ' ' + s.w50}>
-                    <h3>I'm a React Enthusiast</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur dolore iusto quam,
-                        quas reiciendis vel voluptatibus? Ad architecto asperiores aut consectetur, dolores esse
-                        laboriosam magnam molestias numquam optio, saepe.<br/><br/>Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Laboriosam, qui, sed? Aliquid aspernatur cupiditate deleniti
-                        facilis impedit ipsam iusto labore laboriosam minus officiis pariatur placeat quos ratione sint
-                        tempora, veniam.</p>
-                </div>
                 <div className={s.w50}>
-                    <img src={pivo} className="img"/>
+                    <img src={selfie} className="img"/>
                 </div>
+                <div className={s.contentBx + ' ' + s.w50}>
+                    <p>Hi, I’m Vitalii! I am a React autodidact with no commercial experience, but, nevertheless,
+                        feel myself ready to become a full-time React developer.</p>
+                    <p>I’ve been studying React (along with HTML, CSS, vanilla JS, Redux, Node, APIs, DBs, git and
+                        so on) for more than a year and a half now.</p>
+                    <p>I’ve tried to apply my knowledge and skills in various small projects, most of which will find
+                        their application in real life (you can find all source code at my
+                        <a className={s.gitHubLink}
+                            target="_blank"
+                           href="https://github.com/Nipron"> GitHub</a>.</p>
+                    <div className={s.btnWrap}>
+                        <Link className={s.btn}>Download full CV</Link>
+                    </div>
+                </div>
+
             </div>
         </section>
 

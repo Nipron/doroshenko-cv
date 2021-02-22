@@ -9,6 +9,8 @@ import bootstrap from "../../images/Logos/bootstrap.png";
 import styled from "../../images/Logos/styled.png";
 import react from "../../images/Logos/react.png";
 import paypal from "../../images/Logos/paypal.png";
+import firebase from "../../images/Logos/firebase.png";
+import typescript from "../../images/Logos/typescript.png";
 
 const Carousel = () => {
 
@@ -43,6 +45,8 @@ const Carousel = () => {
                                 <img className={s.iconZ} src={bootstrap} alt="bootstap"/>
                                 <img className={s.iconZ} src={styled} alt="bootstap"/>
                                 <img className={s.iconZ} src={paypal} alt="bootstap"/>
+                                <img className={s.iconZ} src={firebase} alt="bootstap"/>
+                                <img className={s.iconZ} src={typescript} alt="bootstap"/>
 
 
                                 {/*<img className={s.icon} src={bootstrap}/>
