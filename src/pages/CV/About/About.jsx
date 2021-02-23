@@ -2,6 +2,7 @@ import React from 'react';
 import s from "./About.module.css";
 import selfie from "./../../../images/selfie.jpg";
 import {HashLink as Link} from "react-router-hash-link";
+import cv from "./../../../files/Doroshenko_CV.pdf"
 
 const About = () => {
 
@@ -26,7 +27,7 @@ const About = () => {
                             target="_blank"
                            href="https://github.com/Nipron"> GitHub</a>).</p>
                     <div className={s.btnWrap}>
-                        <Link className={s.btn}>Download full CV</Link>
+                        <Link className={s.btn} to={cv} target="_blank" download>Download full CV</Link>
                     </div>
                 </div>
 

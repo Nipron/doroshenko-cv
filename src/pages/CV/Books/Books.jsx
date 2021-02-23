@@ -13,16 +13,16 @@ const Books = () => {
             </div>
             <div className={s.content}>
                 <div className={s.bookBox}>
-                    <img src={EloquentJS}/>
+                    <img src={EloquentJS} alt="EloquentJS"/>
                 </div>
                 <div className={s.bookBox}>
-                    <img src={LearningReact}/>
+                    <img src={LearningReact} alt="LearningReact"/>
                 </div>
                 <div className={s.bookBox}>
-                    <img src={ReactHooks}/>
+                    <img src={ReactHooks} alt="ReactHooks"/>
                 </div>
                 <div className={s.bookBox}>
-                    <img src={Grokaem}/>
+                    <img src={Grokaem} alt="Grokaem"/>
                 </div>
             </div>
         </section>

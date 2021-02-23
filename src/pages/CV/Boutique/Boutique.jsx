@@ -5,6 +5,10 @@ import {HashLink as Link} from "react-router-hash-link";
 
 const Boutique = () => {
 
+    console.log([1, 2, [[3, 4], 's'], '6'].toString().split(',').map(x=> +x))
+    console.log("5")
+    console.log(5)
+
     return (
         <section className={s.boutique}>
             <div className="anchor" id="boutique"></div>
@@ -30,7 +34,8 @@ const Boutique = () => {
                     <p>- Upload product thumbnails from file or by link</p>
                     <br/>
                     <p>If you want to browse an admin CMS panel, please (for security reasons and to avoid repeating
-                        my personal sad experience) <Link className={s.contactLink} to="#about">contact me</Link> - I will provide you with admin rights ASAP.</p>
+                        my personal sad experience) <Link className={s.contactLink} to="#about">contact me</Link> - I
+                        will provide you with admin rights ASAP.</p>
 
                 </div>
                 <div className={s.w50}>
