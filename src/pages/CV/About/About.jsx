@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className={s.content}>
                 <div className={s.w50}>
-                    <img src={selfie} className="img"/>
+                    <img src={selfie} className="img" alt="selfie"/>
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <p>Hi, I’m Vitalii! I am a React autodidact with no commercial experience, but, nevertheless,
@@ -24,8 +24,9 @@ const About = () => {
                     <p>I’ve tried to apply my knowledge and skills in various small projects, most of which will find
                         their application in real life (you can find all source code at my
                         <a className={s.gitHubLink}
-                            target="_blank"
-                           href="https://github.com/Nipron"> GitHub</a>).</p>
+                           target="_blank"
+                           href="https://github.com/Nipron"
+                           rel="noreferrer"> GitHub</a>).</p>
                     <div className={s.btnWrap}>
                         <Link className={s.btn} to={cv} target="_blank" download>Download full CV</Link>
                     </div>

@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import s from "./Header.module.css";
-import { HashLink } from 'react-router-hash-link';
-import {Link} from "react-router-dom";
+import { HashLink as Link} from 'react-router-hash-link';
 
 const Header = () => {
 
@@ -35,11 +34,11 @@ const Header = () => {
             <Link className={s.logo}>{`${h} x ${w}`}</Link>
             <div className={toggleStyle} onClick={handleToggle}></div>
             <ul className={menuStyle}>
-                <li><HashLink to="#hello" onClick={handleToggle}>Home</HashLink></li>
-                <li><HashLink to="#about" onClick={handleToggle}>About</HashLink></li>
-                <li><HashLink to="#boutique" onClick={handleToggle}>Projects</HashLink></li>
-                <li><HashLink to="#youtube" onClick={handleToggle}>Studying</HashLink></li>
-                <li><HashLink>Contacts</HashLink></li>
+                <li><Link to="#hello" onClick={handleToggle}>Home</Link></li>
+                <li><Link to="#about" onClick={handleToggle}>About</Link></li>
+                <li><Link to="#boutique" onClick={handleToggle}>Projects</Link></li>
+                <li><Link to="#youtube" onClick={handleToggle}>Studying</Link></li>
+                <li><Link to="#contacts" onClick={handleToggle}>Contacts</Link></li>
                 <li><Link to="/">Bender</Link></li>
             </ul>
         </div>

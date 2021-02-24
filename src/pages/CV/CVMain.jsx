@@ -6,6 +6,8 @@ import Carousel from "../../components/Carousel/Carousel";
 import Books from "./Books/Books";
 import YouTube from "./YouTube/YouTube";
 import Boutique from "./Boutique/Boutique";
+import Contacts from "./Contacts/Contacts";
+import Footer from "./Footer/Footer";
 
 const CVMain = () => {
     return (
@@ -17,6 +19,8 @@ const CVMain = () => {
             <Carousel/>
             <YouTube/>
             <Books/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 };

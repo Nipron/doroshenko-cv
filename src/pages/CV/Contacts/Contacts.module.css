@@ -1,0 +1,51 @@
+.contacts {
+    padding: 4rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.contacts span {
+    font-family: Poppins, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.contacts img {
+    height: 2.4rem;
+    padding: 0 4px;
+}
+
+.viber {
+    margin-left: 20px;
+}
+
+.heading {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .contacts span {
+        font-size: 1.4rem;
+    }
+
+    .contacts img {
+        height: 1.2rem;
+        padding: 0 2px;
+    }
+
+    .viber {
+        margin-left: 10px;
+    }
+}
