@@ -66,10 +66,3 @@
         padding: 1rem;
     }
 }
-
-@media screen and (max-width: 360px) {
-
-    .bookBox {
-        padding: 0.6rem;
-    }
-}
