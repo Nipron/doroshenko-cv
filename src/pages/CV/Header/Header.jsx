@@ -7,9 +7,13 @@ const Header = () => {
     const [headerStyle, setHeaderStyle] = useState(s.header)
     const [toggleStyle, setToggleStyle] = useState(s.toggle)
     const [menuStyle, setMenuStyle] = useState(s.menu)
+    const [h, seth] = useState(window.innerHeight)
+    const [w, setw] = useState(window.innerWidth)
 
     const listener = () => {
         setHeaderStyle(window.scrollY > 0 ? s.header + ' ' + s.sticky : s.header)
+        seth(window.innerHeight)
+        setw(window.innerWidth)
     }
 
     useEffect(() => {
@@ -27,7 +31,7 @@ const Header = () => {
 
     return (
         <div className={headerStyle}>
-            <Link className={s.logo}>PORTFOLIO</Link>
+            <Link className={s.logo}>{`${h} x ${w}`}</Link>
             <div className={toggleStyle} onClick={handleToggle}></div>
             <ul className={menuStyle}>
                 <li><Link to="#hello" onClick={handleToggle}>Home</Link></li>

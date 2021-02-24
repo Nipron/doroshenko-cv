@@ -35,7 +35,7 @@
     flex-direction: column;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 780px) {
     .contacts span {
         font-size: 1.4rem;
     }
