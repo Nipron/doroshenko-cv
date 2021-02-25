@@ -26,7 +26,6 @@
     background: grey;
     max-width: 15em;
     margin: 1em;
-    transition: 0.5s;
 }
 
 @media screen and (max-width: 1279px) {
@@ -37,20 +36,29 @@
 }
 
 @media screen and (max-width: 864px) {
+    .books {
+        padding: 2rem 0.5rem;
+    }
     .content {
-        margin: 1em 7.2em;
+        margin: 1em 0.5em;
     }
 
     .bookBox {
         margin: 0;
         padding-bottom: 0;
+        max-width: 8em;
     }
-
 }
 
 @media screen and (max-width: 688px) {
     .content {
-        margin: 1em 1.7em;
+        margin: 1em 3.3em;
+    }
+
+    .bookBox {
+        margin: 0;
+        padding-bottom: 0;
+        max-width: 10em;
     }
 }
 
@@ -72,9 +80,11 @@
     .books {
         padding: 2rem 10px;
     }
+
     .content {
         margin: 1em;
     }
+
     .bookBox {
         padding: 4px 5px 0;
     }

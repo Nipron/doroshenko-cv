@@ -34,7 +34,7 @@ const Boutique = () => {
                     <p>- Upload product thumbnails from file or by link</p>
                     <br/>
                     <p>If you want to browse an admin CMS panel, please (for security reasons and to avoid repeating
-                        my personal sad experience) sign up <Link className={s.contactLink} to="#contacts">contact me</Link> - I
+                        my personal sad experience) sign up and <Link className={s.contactLink} to="#contacts">contact me</Link> - I
                         will provide you with admin rights ASAP.</p>
                 </div>
                 <div className={s.w50}>

@@ -29,7 +29,7 @@ const Carousel = () => {
                     <div className={s.wrap}>
                         <div className={s.card}>
                             <div className={s.heading}>
-                                Simple E-commerce project
+                                Socks Boutique
                             </div>
                             <div className={s.picture}>
                                 <img src={boutique} alt="beer store"/>
@@ -61,7 +61,7 @@ const Carousel = () => {
                     <div className={s.wrap}>
                         <div className={s.card}>
                             <div className={s.heading}>
-                                Simple E-commerce project
+                                Simple E-commerce
                             </div>
                             <div className={s.picture}>
                                 <img src={beerstore} alt="beer store"/>

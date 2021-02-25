@@ -15,11 +15,19 @@ import Vladilen from "../../../images/YouTube/Vladilen.jpg";
 
 
 const YouTube = () => {
+    let b = 'gggHHHkkrZZZrrrZdddd'
+
+    console.log(b.match(/(.)\1+/gi))
+
+    let obj = {}
+
+    console.log(obj.__proto__ === Object.prototype)
+
     return (
         <section className={s.youTube}>
             <div className="anchor" id="youtube"></div>
             <div className={s.heading}>
-                <h2>YouTube channels that I've spent a total of at least 1200 hours on</h2>
+                <h2>YouTube channels that I've spent a total of 1000+ hours on</h2>
             </div>
             <div className={s.content}>
                 <div className={s.channelBox}>

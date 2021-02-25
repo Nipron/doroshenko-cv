@@ -1,5 +1,6 @@
 .about {
-    padding: 4rem;
+    padding: 2rem;
+    border: 1px solid;
 }
 
 .heading {
@@ -20,13 +21,13 @@
 }
 
 .contentBox {
-    padding: 5px 0 0 25px;
+    padding: 10px 0 0 20px;
     text-indent: 1.5em;
     text-align: justify;
 }
 
 .w50 {
-    min-width: 50%;
+    min-width: calc(50% - 25px);
 }
 
 .about img {
@@ -42,9 +43,8 @@
     background: #2196f3;
     display: inline-block;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px 30px;
+    margin: 20px 0 0 -25px;
+    padding: 10px 20px;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -57,9 +57,7 @@
     color: #2196f3;;
 }
 
-
-
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
     .heading h2 {
         font-size: 24px;
     }
@@ -68,11 +66,5 @@
     }
     .contentBox {
         padding: 10px 0 0 0;
-    }
-}
-
-@media (max-width: 600px) {
-    .about {
-        padding: 30px 20px;
     }
 }

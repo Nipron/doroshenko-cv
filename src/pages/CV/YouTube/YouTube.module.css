@@ -1,12 +1,17 @@
 .youTube {
-    margin-bottom: 2em;
+    padding: 2rem;
 }
 
 .heading {
     color: black;
     width: 100%;
     text-align: center;
-    margin: 1rem 0 auto;
+    margin: 0 auto 1rem;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .content {
@@ -14,23 +19,24 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .channelBox {
-    padding: 1em;
-    margin: 1em;
+    margin: 2em;
     transition: 0.5s;
     text-align: center;
 }
 
-.channelBox:hover {
-    background-color: #ddd;
-    transform: scale(1.05);
+.youtubeIcon {
+    width: 8rem;
+    border-radius: 4rem;
 }
 
-.youtubeIcon {
-    width: 12rem;
-    border-radius: 6rem;
+
+.youtubeIcon:hover {
+    transform: scale(1.05);
 }
 
 .youtubeLink {
@@ -40,8 +46,47 @@
 .youtubeName {
     color: black;
     padding-top: .6rem;
-    font-size: 1.3rem;
+    font-size: .8rem;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+    .channelBox {
+        margin: 1.4em;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .channelBox {
+        margin: 0.8em;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .youtubeIcon {
+        width: 6rem;
+        border-radius: 3rem;
+    }
+    .youtubeName {
+        padding-top: .5rem;
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .youTube {
+        padding: 2rem 0.6rem;
+    }
+
+    .channelBox {
+        margin: 0.3em;
+    }
+
+    .youtubeIcon {
+        width: 6rem;
+        border-radius: 3rem;
+    }
+
 }
 
 
