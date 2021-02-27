@@ -5,11 +5,12 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 const Sith = () => {
     return (
-        <div className={s.sith}>
-            <Link to="/cv#youtube">
+        <Link to="/cv#youtube" className={s.sith}>
+            <div className={s.sithPic}>
                 <img src={sith} alt="sith"/>
-            </Link>
-        </div>
+            </div>
+            <span></span>
+        </Link>
     );
 };
 

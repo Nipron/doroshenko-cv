@@ -5,7 +5,7 @@ import Typing from "../../../components/Typing/Typing";
 
 const Hello = () => {
 
-    const typing = ["Rookie", "Developer", "Enthusiast", "Apprentice", "Dreamer"]
+    const typing = ["Rookie", "Developer", "Autodidact", "Enthusiast", "Apprentice", "Dreamer"]
 
     return (
         <section id="hello" className={s.banner}>
