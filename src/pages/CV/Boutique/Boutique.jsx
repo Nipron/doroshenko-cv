@@ -40,7 +40,7 @@ const Boutique = () => {
                 </div>
                 <div className={s.w50}>
                     <a target="_blank"
-                       href="https://https://doroshenko-boutique.netlify.app"
+                       href="https://doroshenko-boutique.netlify.app/"
                        rel="noreferrer">
                         <img src={boutique} className="img" alt="boutique"/>
                     </a>
