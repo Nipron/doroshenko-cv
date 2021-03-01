@@ -1,5 +1,6 @@
-import MainPage from "./pages/MainPage/MainPage";
 import {Route} from "react-router";
+
+import MainPage from "./pages/MainPage/MainPage";
 import CVMain from "./pages/CV/CVMain";
 
 function App() {

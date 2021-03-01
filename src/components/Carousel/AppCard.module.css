@@ -75,7 +75,7 @@
 .iconZ {
     height: 100%;
     object-fit: contain;
-    margin: 0 0.2rem;
+    margin: 0 0.3rem;
 }
 
 @media screen and (max-width: 586px) {
