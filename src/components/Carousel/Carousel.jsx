@@ -3,7 +3,6 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import s from "./AppCard.module.css";
-import boutique from "../../images/AppThumbnails/boutique.jpg";
 import beerstore from "../../images/AppThumbnails/beerstore.jpg";
 import memories from "../../images/AppThumbnails/memories.jpg";
 import hotel from "../../images/AppThumbnails/hotel.jpg";
