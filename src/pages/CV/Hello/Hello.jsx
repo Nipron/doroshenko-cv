@@ -14,14 +14,14 @@ const Hello = () => {
                 <h2>Hello, I'm</h2>
                 <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
-                {/*<Link className={s.btn} to="#about" >About me</Link>*/}
-                <div className={s.btn}>
+                <Link className={s.btn} to="#about" >About me</Link>
+                {/*<div className={s.btn}>
                     <a target="_blank"
                        href="https://drive.google.com/file/d/1Etx95y7-eFyauwlZLfogKWQrzRmoc_eF/view?usp=sharing"
                        rel="noreferrer">
                        DOWNLOAD APP
                     </a>
-                </div>
+                </div>*/}
             </div>
         </section>
     );
