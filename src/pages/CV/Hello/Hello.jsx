@@ -2,6 +2,7 @@ import React from 'react';
 import s from "./Hello.module.css";
 import {HashLink as Link} from 'react-router-hash-link';
 import Typing from "../../../components/Typing/Typing";
+import boutique from "../../../images/AppThumbnails/boutique.png";
 
 const Hello = () => {
 
@@ -14,6 +15,13 @@ const Hello = () => {
                 <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
                 <Link className={s.btn} to="#about" >About me</Link>
+                <div className={s.btn}>
+                    <a target="_blank"
+                       href="https://doroshenko-boutique.netlify.app/"
+                       rel="noreferrer">
+                       ZZZ ZZZ
+                    </a>
+                </div>
             </div>
         </section>
     );

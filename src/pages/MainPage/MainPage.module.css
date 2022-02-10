@@ -3,7 +3,7 @@
     height: 100vh;
     margin: 0 auto;
     position: relative;
-    background: linear-gradient(150deg, white, 80%, grey);
+    background: linear-gradient(150deg, white 80%, grey);
     overflow:  hidden;
 }
 
