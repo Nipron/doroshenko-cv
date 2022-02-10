@@ -14,12 +14,12 @@ const Hello = () => {
                 <h2>Hello, I'm</h2>
                 <div className={s.vit}>Vitalii Doroshenko</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
-                <Link className={s.btn} to="#about" >About me</Link>
+                {/*<Link className={s.btn} to="#about" >About me</Link>*/}
                 <div className={s.btn}>
                     <a target="_blank"
-                       href="https://doroshenko-boutique.netlify.app/"
+                       href="https://drive.google.com/file/d/1Etx95y7-eFyauwlZLfogKWQrzRmoc_eF/view?usp=sharing"
                        rel="noreferrer">
-                       ZZZ ZZZ
+                       DOWNLOAD APP
                     </a>
                 </div>
             </div>
