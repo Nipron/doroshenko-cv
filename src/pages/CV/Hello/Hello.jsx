@@ -13,7 +13,8 @@ const Hello = () => {
             <div className={s.textBox}>
                 <h2>Hello, I'm</h2>
                 {/*<div className={s.vit}>Vitalii Doroshenko</div>*/}
-                <a href="ua.slotscity://cashier"><div className={s.vit}>Вернуться в приложение</div></a>
+                <a href="https://t.me/SlotsCity_bot"><div className={s.vit2}>Телеграм</div></a>
+                <a href="ua.slotscity://cashier"><div className={s.vit}>Приложение</div></a>
                 <h3>I am a React <Typing typing={typing}/></h3>
                 <Link className={s.btn} to="#about" >About me</Link>
                 {/*<div className={s.btn}>

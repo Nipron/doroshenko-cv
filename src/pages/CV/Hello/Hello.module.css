@@ -31,6 +31,14 @@
     line-height: 1.1em;
 }
 
+.vit2 {
+    font-size: 4.1em;
+    font-weight: 700;
+    max-width: 52vw;
+    color: green;
+    line-height: 1.1em;
+}
+
 .banner h3 {
     font-size: 2em;
     color: white;
