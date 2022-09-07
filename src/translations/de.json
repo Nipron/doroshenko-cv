@@ -1,4 +1,12 @@
 {
-  "lang": "Sprache",
-  "time": "Zeit"
+  "home": "Startseite",
+  "about": "Über mich",
+  "contacts": "Kontakte",
+  "hello": "Hallo, Ich bin",
+  "react": "Ein React/React Native-",
+  "developer": "Entwickler",
+  "autodidact": "Autodidakt",
+  "enthusiast": "Enthusiast",
+  "designer": "Designer",
+  "dreamer": "Träumer"
 }

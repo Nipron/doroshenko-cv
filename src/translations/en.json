@@ -1,4 +1,12 @@
 {
-  "lang": "Language",
-  "time": "Time"
+  "home": "Home",
+  "about": "About me",
+  "contacts": "Contacts",
+  "hello": "Hello, I'm ",
+  "react": "A React/React Native ",
+  "developer": "Developer",
+  "autodidact": "Autodidact",
+  "enthusiast": "Enthusiast",
+  "designer": "Designer",
+  "dreamer": "Dreamer"
 }

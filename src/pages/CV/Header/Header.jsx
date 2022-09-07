@@ -5,13 +5,19 @@ import {useTranslation} from "react-i18next";
 
 const Header = () => {
 
-    const {i18n} = useTranslation();
+    const {t, i18n} = useTranslation();
 
     const changeLanguage = lng => {
         i18n.changeLanguage(lng);
+
     };
 
     const [selected, setSelected] = useState('EN');
+
+    const handleChange = lang => {
+        setSelected(lang)
+       // window.location.reload();
+    }
 
     useEffect(() => {
         switch (selected) {
@@ -24,7 +30,6 @@ const Header = () => {
             default:
                 changeLanguage("en")
         }
-        console.log(selected)
     }, [selected])
 
     const [headerStyle, setHeaderStyle] = useState(s.header)
@@ -55,17 +60,17 @@ const Header = () => {
         <div className={headerStyle}>
             <div className={s.logo}>
                 {/*<Link className={s.logo}>PORTFOLIO</Link>*/}
-                <Link className={s.lang + (selected === "DE" ? " " + s.opa : "")} onClick={() => setSelected("EN")}>EN</Link>
-                <Link className={s.lang + (selected === "EN" ? " " + s.opa : "")} onClick={() => setSelected("DE")}>DE</Link>
+                <Link className={s.lang + (selected === "DE" ? " " + s.opa : "")} onClick={() => handleChange("EN")}>EN</Link>
+                <Link className={s.lang + (selected === "EN" ? " " + s.opa : "")} onClick={() => handleChange("DE")}>DE</Link>
             </div>
 
             <div className={toggleStyle} onClick={handleToggle}></div>
             <ul className={menuStyle}>
-                <li><Link to="#hello" onClick={handleToggle}>Home</Link></li>
-                <li><Link to="#about" onClick={handleToggle}>About</Link></li>
-                <li><Link to="#boutique" onClick={handleToggle}>Projects</Link></li>
-                <li><Link to="#youtube" onClick={handleToggle}>Studying</Link></li>
-                <li><Link to="#contacts" onClick={handleToggle}>Contacts</Link></li>
+                <li><Link to="#hello" onClick={handleToggle}>{t("home")}</Link></li>
+                <li><Link to="#about" onClick={handleToggle}>React</Link></li>
+                <li><Link to="#boutique" onClick={handleToggle}>React Native</Link></li>
+                <li><Link to="#youtube" onClick={handleToggle}>{t("about")}</Link></li>
+                <li><Link to="#contacts" onClick={handleToggle}>{t("contacts")}</Link></li>
                 {/*<li><Link to="/">Bender</Link></li>*/}
             </ul>
         </div>

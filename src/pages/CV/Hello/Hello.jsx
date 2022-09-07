@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import s from "./Hello.module.css";
 import {HashLink as Link} from 'react-router-hash-link';
 import Typing from "../../../components/Typing/Typing";
@@ -8,18 +8,22 @@ import {useTranslation} from "react-i18next";
 
 const Hello = () => {
 
-    const {t} = useTranslation();
-
-    const typing = ["Rookie", "Developer", "Autodidact", "Enthusiast", "Apprentice", "Dreamer"]
+    const {t, i18n} = useTranslation();
+    const typing = [t("developer"), t("autodidact"), t("designer"), t("enthusiast"), t("dreamer"),]
 
     return (
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
-                <h2>Hello, I'm</h2>
-                <div className={s.vit}>{t("lang")}</div>
-                <div className={s.vit}>{t("time")}</div>
-                <h3>I am a React <Typing typing={typing}/></h3>
-                <Link className={s.btn} to="#about" >About me</Link>
+                <h2>{t("hello")}</h2>
+                <div className={s.vit}>Vitalii</div>
+                <div className={s.vit}>Doroshenko</div>
+                {
+                    i18n.language === "en" ?
+                        <h3 key="en">{t("react")}<Typing typing={typing}/></h3> :
+                        <h3 key="de">{t("react")}<Typing typing={typing}/></h3>
+                }
+
+                <Link className={s.btn} to="#about">{t("about")}</Link>
                 {/*<div className={s.btn}>
                     <a target="_blank"
                        href="https://drive.google.com/file/d/1Etx95y7-eFyauwlZLfogKWQrzRmoc_eF/view?usp=sharing"
