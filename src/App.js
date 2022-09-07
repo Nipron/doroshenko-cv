@@ -1,5 +1,4 @@
 import {Route} from "react-router";
-import "./src/translations/i18n"
 
 import MainPage from "./pages/MainPage/MainPage";
 import CVMain from "./pages/CV/CVMain";
