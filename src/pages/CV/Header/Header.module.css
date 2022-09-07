@@ -11,6 +11,11 @@
     transition: 0.5s;
 }
 
+.headerLeft {
+    position: relative;
+    display: flex;
+}
+
 .sticky {
     background: white;
     padding: 20px 50px;
@@ -24,6 +29,17 @@
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
+    margin-right: 30px;
+}
+
+.lang {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 10px;
 }
 
 .header.sticky .logo {

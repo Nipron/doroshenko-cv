@@ -16,9 +16,8 @@ const Hello = () => {
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
                 <h2>Hello, I'm</h2>
-                {/*<div className={s.vit}>Vitalii Doroshenko</div>*/}
-                <a href="https://t.me/SlotsCity_bot"><div className={s.vit2}>{t("lang")}</div></a>
-                <a href="ua.slotscity://cashier"><div className={s.vit}>Приложение</div></a>
+                <div className={s.vit}>{t("lang")}</div>
+                <div className={s.vit}>{t("time")}</div>
                 <h3>I am a React <Typing typing={typing}/></h3>
                 <Link className={s.btn} to="#about" >About me</Link>
                 {/*<div className={s.btn}>
