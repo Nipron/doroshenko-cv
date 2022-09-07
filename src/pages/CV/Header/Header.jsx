@@ -53,10 +53,10 @@ const Header = () => {
 
     return (
         <div className={headerStyle}>
-            <div className={s.headerLeft}>
+            <div className={s.logo}>
                 {/*<Link className={s.logo}>PORTFOLIO</Link>*/}
-                <Link className={s.lang} onClick={() => setSelected("EN")}>EN</Link>
-                <Link className={s.lang} onClick={() => setSelected("DE")}>DE</Link>
+                <Link className={s.lang + (selected === "DE" ? " " + s.opa : "")} onClick={() => setSelected("EN")}>EN</Link>
+                <Link className={s.lang + (selected === "EN" ? " " + s.opa : "")} onClick={() => setSelected("DE")}>DE</Link>
             </div>
 
             <div className={toggleStyle} onClick={handleToggle}></div>

@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.opa {
+    opacity: 0.3
+}
+
 .sticky {
     background: white;
     padding: 20px 50px;
@@ -47,6 +51,10 @@
 }
 
 .header.sticky .menu li a {
+    color: black;
+}
+
+.header.sticky .lang {
     color: black;
 }
 
