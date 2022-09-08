@@ -4,6 +4,14 @@
     background-color: black;
 }
 
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
 .back {
     background-image: url("../../../images/AppThumbnails/sc.jpg");
     background-size: cover;
@@ -32,7 +40,6 @@
 .content {
     display: flex;
     justify-content: space-between;
-    background: lightblue;
 }
 
 .contentBox {
@@ -48,7 +55,6 @@
 
 .w50 {
     min-width: 50%;
-    background-color: green;
 }
 
 img {

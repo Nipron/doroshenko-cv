@@ -18,11 +18,12 @@ const ReactPage = () => {
                     <img src={veria} className="img" alt="selfie"/>
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
+                    <h3>VERIA EasyPlan Clickmat</h3>
                     <p>{t("react1")}</p>
                     <p>{t("react2")}</p>
                     <p>{t("react3")}</p>
                     <br/>
-                    <p><a href="https://easyplan-clickmat.veria.dk" target="_blank">https://easyplan-clickmat.veria.dk</a></p>
+                    <p><a className={s.darkLink} href="https://easyplan-clickmat.veria.dk" target="_blank">https://easyplan-clickmat.veria.dk</a></p>
                 </div>
 
             </div>

@@ -10,7 +10,14 @@
     max-width: 560px;
     height: calc(12vw + 20px);
     max-height: 382px;
-    position: relative
+    position: relative;
+    transition: all .2s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.wrap :hover {
+    transform: scale(1.2);
 }
 
 .imgSC {
@@ -18,8 +25,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .card {

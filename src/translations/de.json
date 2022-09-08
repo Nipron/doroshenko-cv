@@ -11,5 +11,8 @@
   "dreamer": "Träumer",
   "react1": "Ein Projekt, auf das ich wirklich stolz bin.",
   "react2": "Es wurde in 3 Monaten einzig und allein von mir erstellt (inkl. Layout, Erstellung eines Drag-n-Drop-Raum-Editors und eines 2000-Linien-Algorithmus zur optimalen Platzierung und Verbindung von Heizmatten - eine Kombination aus zwei klassischen \"den kürzesten Weg finden\" und \"Handlungsreisende\" Problemen.",
-  "react3": "Trotz der O(n!) Komplexität werden alle Berechnungen im Browser durchgeführt (kein Back-End)."
+  "react3": "Trotz der O(n!) Komplexität werden alle Berechnungen im Browser durchgeführt (kein Back-End).",
+  "sc1": "Das Projekt, an dem ich seit ungefähr 8 Monaten arbeite.",
+  "sc2": "Lange Rede kurzer Sinn: 60+ Bildschirme, 50+ Abhängigkeiten.",
+  "sc3": "Das Projekt ist bereit für den Einsatz im App Store, aber es gibt einige ernsthafte Probleme in Bezug auf nicht eingebettete Echtgeldspiele, sodass es derzeit für einen ungewissen Zeitraum angehalten wird."
 }
