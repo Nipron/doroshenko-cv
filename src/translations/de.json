@@ -2,11 +2,14 @@
   "home": "Startseite",
   "about": "Über mich",
   "contacts": "Kontakte",
-  "hello": "Hallo, Ich bin",
-  "react": "Ein React/React Native-",
+  "hello": "Hallo, ich bin",
+  "react": "Ein React Native-",
   "developer": "Entwickler",
   "autodidact": "Autodidakt",
   "enthusiast": "Enthusiast",
   "designer": "Designer",
-  "dreamer": "Träumer"
+  "dreamer": "Träumer",
+  "react1": "Ein Projekt, auf das ich wirklich stolz bin.",
+  "react2": "Es wurde in 3 Monaten einzig und allein von mir erstellt (inkl. Layout, Erstellung eines Drag-n-Drop-Raum-Editors und eines 2000-Linien-Algorithmus zur optimalen Platzierung und Verbindung von Heizmatten - eine Kombination aus zwei klassischen \"den kürzesten Weg finden\" und \"Handlungsreisende\" Problemen.",
+  "react3": "Trotz der O(n!) Komplexität werden alle Berechnungen im Browser durchgeführt (kein Back-End)."
 }

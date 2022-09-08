@@ -3,10 +3,13 @@
   "about": "About me",
   "contacts": "Contacts",
   "hello": "Hello, I'm ",
-  "react": "A React/React Native ",
+  "react": "A React Native ",
   "developer": "Developer",
   "autodidact": "Autodidact",
   "enthusiast": "Enthusiast",
   "designer": "Designer",
-  "dreamer": "Dreamer"
+  "dreamer": "Dreamer",
+  "react1": "A project that I am truly proud of.",
+  "react2": "It was created in 3 months by me solely (including layout, creation of a Drag-n-Drop room editor and a 2000 line algorithm for the optimal location and connection of heating mats - a combination of two classic \"finding the shortest path\" and \"traveling salesman\" problems.",
+  "react3": "Despite the O(n!) complexity, all calculations are performed in the browser (no back-end)."
 }

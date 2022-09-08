@@ -8,17 +8,20 @@ import YouTube from "./YouTube/YouTube";
 import Boutique from "./Boutique/Boutique";
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
+import ReactPage from "./React/ReactPage";
+import RNPage from "./ReactNative/RNPage";
 
 const CVMain = () => {
     return (
         <div>
             <Header/>
             <Hello/>
-            <About/>
-            <Boutique/>
+            <ReactPage/>
+            <RNPage/>
             <Carousel/>
             <YouTube/>
             <Books/>
+            <About/>
             <Contacts/>
             <Footer/>
         </div>
