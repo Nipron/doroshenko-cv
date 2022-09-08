@@ -3,6 +3,7 @@ import s from "./RNPage.module.css";
 import boutique from "./../../../images/AppThumbnails/boutique.png";
 import {HashLink as Link} from "react-router-hash-link";
 import Carousel from "../../../components/Carousel/Carousel";
+import selfie from "../../../images/selfie.jpg";
 
 const RNPage = () => {
 
@@ -35,8 +36,10 @@ const RNPage = () => {
                             me</Link> - I
                         will provide you with admin rights ASAP.</p>
                 </div>
-                <div className={s.w50}>
-                    <Carousel/>
+                <div className={s.w50 + ' ' + s.back}>
+                    <div className={s.carouselWrap}>
+                        <Carousel/>
+                    </div>
                 </div>
 
             </div>

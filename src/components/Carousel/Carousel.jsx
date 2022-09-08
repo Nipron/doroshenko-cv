@@ -22,6 +22,16 @@ import redux from "../../images/Logos/redux.png";
 import sass from "../../images/Logos/sass.svg.png";
 import styled from "../../images/Logos/styled.png";
 import typescript from "../../images/Logos/typescript.png";
+import selfie from "../../images/selfie.jpg";
+import sc1 from "../../images/AppThumbnails/sc1.jpg";
+import sc2 from "../../images/AppThumbnails/sc2.png";
+import sc3 from "../../images/AppThumbnails/sc3.jpg";
+import sc4 from "../../images/AppThumbnails/sc4.jpg";
+import sc5 from "../../images/AppThumbnails/sc5.jpg";
+import sc6 from "../../images/AppThumbnails/sc6.jpg";
+import sc7 from "../../images/AppThumbnails/sc7.png";
+import sc8 from "../../images/AppThumbnails/sc8.png";
+import React from "react";
 
 const Carousel = () => {
 
@@ -36,104 +46,47 @@ const Carousel = () => {
                 autoWidth="true"
                 /*autoplayTimeout="5000"*/>
 
-                {/* beer store */}
+
                 <div className="item">
-                    <a target="_blank"
-                       href="https://doroshenko-beerstore.netlify.app"
-                       rel="noreferrer">
-                        <div className={s.wrap}>
-                            <div className={s.card}>
-                                <div className={s.heading}>
-                                    Beer Store
-                                </div>
-                                <div className={s.picture}>
-                                    <img src={beerstore} alt="beerstore"/>
-                                </div>
-                                <div className={s.description}>
-                                    <div>One of my first projects - a simple no-redux E-commerce project with hardcoded
-                                        data.
-                                    </div>
-                                    <div>Combination of Bootstrap 4 and Styled Components.</div>
-                                    <div>PayPal sandbox payments.</div>
-                                </div>
-                                <div className={s.icons}>
-                                    <img className={s.iconZ} src={react} alt="react"/>
-                                    <img className={s.iconZ} src={bootstrap} alt="bootstap"/>
-                                    <img className={s.iconZ} src={styled} alt="bootstap"/>
-                                    <img className={s.iconZ} src={paypal} alt="bootstap"/>
-                                </div>
-
-                            </div>
-                        </div>
-                    </a>
+                    <div className={s.wrap}>
+                        <img src={sc1} className={s.imgSC} alt="selfie"/>
+                    </div>
                 </div>
-
-                {/* memories */}
                 <div className="item">
-                    <a target="_blank"
-                       href="https://doroshenko-memories.netlify.app"
-                       rel="noreferrer">
-                        <div className={s.wrap}>
-                            <div className={s.card}>
-
-                                <div className={s.heading}>
-                                    Memories (MERN)
-                                </div>
-                                <div className={s.picture}>
-                                    <img src={memories} alt="memories"/>
-                                </div>
-                                <div className={s.description}>
-                                    <div>A full stack MERN (MongoDB - Express.js - React.js - Node.js) project.</div>
-                                    <div>Deployed on Heroku (server) and Netlify (client).</div>
-                                    <div>Styled with Material-UI.</div>
-                                </div>
-                                <div className={s.icons}>
-                                    <img className={s.iconZ} src={react} alt="react"/>
-                                    <img className={s.iconZ} src={redux} alt="redux"/>
-                                    <img className={s.iconZ} src={node} alt="node"/>
-                                    <img className={s.iconZ} src={express} alt="express"/>
-                                    <img className={s.iconZ} src={mongodb} alt="mongodbi"/>
-                                    <img className={s.iconZ} src={materialui} alt="matrialui"/>
-                                </div>
-
-                            </div>
-                        </div>
-                    </a>
+                    <div className={s.wrap}>
+                        <img src={sc2} className={s.imgSC} alt="selfie"/>
+                    </div>
                 </div>
-
-                {/* hotel */}
                 <div className="item">
-                    <a target="_blank"
-                       href="https://doroshenko-hotel.netlify.app"
-                       rel="noreferrer">
-                        <div className={s.wrap}>
-                            <div className={s.card}>
-
-                                <div className={s.heading}>
-                                    Hotel (Contentful)
-                                </div>
-                                <div className={s.picture}>
-                                    <img src={hotel} alt="hotel"/>
-                                </div>
-                                <div className={s.description}>
-                                    <div>A hotel site with Contentful DB.</div>
-                                    <div>Live weather forecast from OpenWeatherMap.org APIs.</div>
-                                    <div>Styled with pure CSS (Sass).</div>
-                                </div>
-
-                                <div className={s.icons}>
-                                    <img className={s.iconZ} src={react} alt="react"/>
-                                    <img className={s.iconZ} src={redux} alt="redux"/>
-                                    <img className={s.iconZ} src={contentful} alt="contentful"/>
-                                    <img className={s.iconZ} src={openweathermap} alt="openweathermap"/>
-                                    <img className={s.iconZ} src={sass} alt="sass"/>
-                                </div>
-
-                            </div>
-                        </div>
-                    </a>
+                    <div className={s.wrap}>
+                        <img src={sc3} className={s.imgSC} alt="selfie"/>
+                    </div>
                 </div>
-
+                <div className="item">
+                    <div className={s.wrap}>
+                        <img src={sc4} className={s.imgSC} alt="selfie"/>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className={s.wrap}>
+                        <img src={sc5} className={s.imgSC} alt="selfie"/>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className={s.wrap}>
+                        <img src={sc6} className={s.imgSC} alt="selfie"/>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className={s.wrap}>
+                        <img src={sc7} className={s.imgSC} alt="selfie"/>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className={s.wrap}>
+                        <img src={sc8} className={s.imgSC} alt="selfie"/>
+                    </div>
+                </div>
 
             </OwlCarousel>
         </section>

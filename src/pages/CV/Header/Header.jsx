@@ -68,7 +68,7 @@ const Header = () => {
             <ul className={menuStyle}>
                 <li><Link to="#hello" onClick={handleToggle}>{t("home")}</Link></li>
                 <li><Link to="#react" onClick={handleToggle}>React</Link></li>
-                <li><Link to="#boutique" onClick={handleToggle}>React Native</Link></li>
+                <li><Link to="#rnpage" onClick={handleToggle}>React Native</Link></li>
                 <li><Link to="#about" onClick={handleToggle}>{t("about")}</Link></li>
                 <li><Link to="#contacts" onClick={handleToggle}>{t("contacts")}</Link></li>
                 {/*<li><Link to="/">Bender</Link></li>*/}

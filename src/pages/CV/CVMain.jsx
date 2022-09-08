@@ -18,9 +18,6 @@ const CVMain = () => {
             <Hello/>
             <ReactPage/>
             <RNPage/>
-            <Carousel/>
-            <YouTube/>
-            <Books/>
             <About/>
             <Contacts/>
             <Footer/>

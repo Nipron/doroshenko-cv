@@ -7,7 +7,7 @@
   width: 40rem;
   margin: 5px;
   height: 30rem;
-  background: #222;
+  background: pink;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -68,4 +68,11 @@
 
 .banner {
   background: black;
+}
+
+@media screen and (max-width: 460px) {
+  .owl-dot{
+    height: 10px;
+    width: 10px;
+  }
 }
