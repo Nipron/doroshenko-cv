@@ -12,7 +12,9 @@
   "react1": "A project that I am truly proud of.",
   "react2": "It was created in 3 months by me solely (including layout, creation of a Drag-n-Drop room editor and a 2000 line algorithm for the optimal location and connection of heating mats - a combination of two classic \"finding the shortest path\" and \"traveling salesman\" problems.",
   "react3": "Despite the O(n!) complexity, all calculations are performed in the browser (no back-end).",
-  "sc1": "The project I’ve been working on for about 8 months.",
+  "sc1": "The project I’ve been working on for about 8 months (also alone).",
   "sc2": "Long story short: 60+ screens, 50+ dependencies.",
-  "sc3": "The project is ready for deployment in App Store, but there are some serious issues regarding non-embedded real money games, so it is currently paused for uncertain period of time."
+  "sc3": "The project is ready for deployment in App Store, but there are some serious issues regarding non-embedded real money games, so it is currently paused for uncertain period of time.",
+  "goodness1": "Pretty interesting pet-project I have developed for Israeli ",
+  "goodness2": " company. Unfortunately, it was shut down after four months."
 }

@@ -23,7 +23,7 @@ const RNPage = () => {
                     <p>{t("sc2")}</p>
                     <p>{t("sc3")}</p>
                     <br/>
-                    <p><a className={s.darkLink} href="https://slotscity.ua/" target="_blank">https://slotscity.ua/</a></p>
+                    <p><a className={s.darkLink} href="https://slotscity.ua" target="_blank">https://slotscity.ua</a></p>
                 </div>
                 <div className={s.w50 + ' ' + s.back}>
                     <div className={s.carouselWrap}>
