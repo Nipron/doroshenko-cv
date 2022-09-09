@@ -11,6 +11,7 @@ import Footer from "./Footer/Footer";
 import ReactPage from "./React/ReactPage";
 import RNPage from "./ReactNative/RNPage";
 import Goodness from "./Goodness/Goodness";
+import Garage from "./Garage/Garage";
 
 const CVMain = () => {
     return (
@@ -19,8 +20,8 @@ const CVMain = () => {
             <Hello/>
             <ReactPage/>
             <RNPage/>
+            <Garage/>
             <Goodness/>
-            <Boutique/>
             <About/>
             <Contacts/>
             <Footer/>
