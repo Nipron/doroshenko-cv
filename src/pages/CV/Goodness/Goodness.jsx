@@ -15,7 +15,7 @@ const Goodness = () => {
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>Goodness</h3>
-                    <p>{t("goodness1")} <a>LightCore</a> {t("react1")}</p>
+                    <p>{t("goodness1")} <a>LightCore</a> {t("goodness2")}</p>
                 </div>
 
             </div>
