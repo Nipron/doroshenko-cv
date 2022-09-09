@@ -16,5 +16,6 @@
   "sc2": "Long story short: 60+ screens, 50+ dependencies.",
   "sc3": "The project is ready for deployment in App Store, but there are some serious issues regarding non-embedded real money games, so it is currently paused for uncertain period of time.",
   "goodness1": "Pretty interesting pet-project I have developed for Israeli ",
-  "goodness2": " company. Unfortunately, it was shut down after four months."
+  "goodness2": " company. Unfortunately, it was shut down after four months.",
+  "garage": "An application for searching and ordering car repair services. My task was to upgrade an existing legacy code and to create a CMS panel for station owners (React). The project was unfortunately paused because of Russia’s war aggression against Ukraine."
 }

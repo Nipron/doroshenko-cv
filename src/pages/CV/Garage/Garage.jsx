@@ -15,7 +15,9 @@ const Garage = () => {
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>Garage</h3>
-                    <p>{t("goodness1")} <a>LightCore</a> {t("goodness2")}</p>
+                    <p>{t("garage")}</p>
+                    <br/>
+                    <p><a className={s.darkLink}  target="_blank" href="https://nms-group.agency">https://nms-group.agency</a></p>
                 </div>
 
             </div>

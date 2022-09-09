@@ -10,6 +10,14 @@
     margin-bottom: 30px;
 }
 
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
 .heading h2 {
     font-weight: 600;
     font-size: 30px;

@@ -26,6 +26,14 @@
     text-align: justify;
 }
 
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
 .w50 {
     min-width: calc(50% - 25px);
 }

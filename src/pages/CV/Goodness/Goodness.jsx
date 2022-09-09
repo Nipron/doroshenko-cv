@@ -14,7 +14,7 @@ const Goodness = () => {
             <div className={s.content}>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>Goodness</h3>
-                    <p>{t("goodness1")} <a>LightCore</a> {t("goodness2")}</p>
+                    <p>{t("goodness1")} <a className={s.darkLink} target="_blank" href="https://lightcore.io/">LightCore</a> {t("goodness2")}</p>
                 </div>
                 <div className={s.w50}>
                     <img src={goodness} className="img" alt="selfie"/>

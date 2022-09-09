@@ -16,5 +16,6 @@
   "sc2": "Lange Rede kurzer Sinn: 60+ Bildschirme, 50+ Abhängigkeiten.",
   "sc3": "Das Projekt ist bereit für den Einsatz im App Store, aber es gibt einige ernsthafte Probleme in Bezug auf nicht eingebettete Echtgeldspiele, sodass es derzeit für einen ungewissen Zeitraum angehalten wird.",
   "goodness1": "Ziemlich interessantes Lieblingsprojekt, das ich für die israelische Firma ",
-  "goodness2": " entwickelt habe. Leider wurde es nach vier Monaten geschlossen."
+  "goodness2": " entwickelt habe. Leider wurde es nach vier Monaten geschlossen.",
+  "garage": "Eine Anwendung zum Suchen und Bestellen von Autoreparaturdiensten. Meine Aufgabe war es, einen bestehenden Legacy-Code zu aktualisieren und ein CMS-Panel für Stationsbesitzer (React) zu erstellen. Das Projekt wurde leider wegen der Kriegsaggression Russlands gegen die Ukraine unterbrochen."
 }
