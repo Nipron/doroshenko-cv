@@ -17,5 +17,10 @@
   "sc3": "The project is ready for deployment in App Store, but there are some serious issues regarding non-embedded real money games, so it is currently paused for uncertain period of time.",
   "goodness1": "Pretty interesting pet-project I have developed for Israeli ",
   "goodness2": " company. Unfortunately, it was shut down after four months.",
-  "garage": "An application for searching and ordering car repair services. My task was to upgrade an existing legacy code and to create a CMS panel for station owners (React). The project was unfortunately paused because of Russia’s war aggression against Ukraine."
+  "garage": "An application for searching and ordering car repair services. My task was to upgrade an existing legacy code and to create a CMS panel for station owners (React). The project was unfortunately paused because of Russia’s war aggression against Ukraine.",
+  "about1": "Hi, I’m Vitalii!",
+  "about2": "I am a JavaScript developer with 2+ years of experience in working on React and React Native projects.",
+  "about3": "During the developing process I use Redux, TypeScript, Figma, Git and many other useful tools. I am also familiar with Node and Express as long as MongoDB and Firebase.",
+  "about4": "Besides programming I’ve got huge experience in hospitality business (6 years of work in the US for RCL) and managing a team of over 10 employees as an owner of an advertising production company.",
+  "about5": "I am constantly working on improvement of my IT knowledge and will be happy to participate in new interesting challenges."
 }

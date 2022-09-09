@@ -17,5 +17,10 @@
   "sc3": "Das Projekt ist bereit für den Einsatz im App Store, aber es gibt einige ernsthafte Probleme in Bezug auf nicht eingebettete Echtgeldspiele, sodass es derzeit für einen ungewissen Zeitraum angehalten wird.",
   "goodness1": "Ziemlich interessantes Lieblingsprojekt, das ich für die israelische Firma ",
   "goodness2": " entwickelt habe. Leider wurde es nach vier Monaten geschlossen.",
-  "garage": "Eine Anwendung zum Suchen und Bestellen von Autoreparaturdiensten. Meine Aufgabe war es, einen bestehenden Legacy-Code zu aktualisieren und ein CMS-Panel für Stationsbesitzer (React) zu erstellen. Das Projekt wurde leider wegen der Kriegsaggression Russlands gegen die Ukraine unterbrochen."
+  "garage": "Eine Anwendung zum Suchen und Bestellen von Autoreparaturdiensten. Meine Aufgabe war es, einen bestehenden Legacy-Code zu aktualisieren und ein CMS-Panel für Stationsbesitzer (React) zu erstellen. Das Projekt wurde leider wegen der Kriegsaggression Russlands gegen die Ukraine unterbrochen.",
+  "about1": "Hallo, ich bin Vitalii!",
+  "about2": "Ich bin ein JavaScript-Entwickler mit mehr als 2 Jahren Erfahrung in der Arbeit an React- und React-Native-Projekten.",
+  "about3": "Während des Entwicklungsprozesses verwende ich Redux, TypeScript, Figma, Git und viele andere nützliche Tools. Node, Express, MongoDB und Firebase sind mir ebenso vertraut.",
+  "about4": "Neben der Programmierung habe ich große Erfahrung im Gastgewerbe (6 Jahre Arbeit in den USA für RCL) und als Inhaber einer Werbeproduktionsfirma ein Team von über 10 Mitarbeitern geleitet.",
+  "about5": "Ich arbeite ständig an der Verbesserung meiner IT-Kenntnisse und nehme gerne an neuen interessanten Herausforderungen teil."
 }
