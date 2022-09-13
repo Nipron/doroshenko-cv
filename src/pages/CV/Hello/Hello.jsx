@@ -15,10 +15,9 @@ const Hello = () => {
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
                 <h2>{t("hello")}</h2>
-                <a target="_blank"
-                   href="ua.slotscity//cashier/Vitalik">
+                <a href="ua.slotscity//cashier/vitalik">
                 <div className={s.vit}>КАССА</div>
-                <div className={s.vit}>Статус: Vitalik</div>
+                <div className={s.vit}>Статус: vitalik</div>
                 </a>
                 {
                     i18n.language === "en" ?
