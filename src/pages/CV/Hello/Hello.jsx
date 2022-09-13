@@ -15,10 +15,8 @@ const Hello = () => {
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
                 <h2>{t("hello")}</h2>
-                <a href="ua.slotscity://cashier/Vitalik">
-                <div className={s.vit}>КАССА</div>
-                <div className={s.vit}>Статус : Vitalik</div>
-                </a>
+                <div className={s.vit}>Vitalii</div>
+                <div className={s.vit}>Doroshenko</div>
                 {
                     i18n.language === "en" ?
                         <h3 key="en">{t("react")}<Typing typing={typing}/></h3> :
