@@ -15,10 +15,10 @@ const Hello = () => {
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
                 <h2>{t("hello")}</h2>
-                <a href="ua.slotscity://cashier/PIZDA">
+                {/*} <a href="ua.slotscity://cashier/Vitalik">*/}
                 <div className={s.vit}>Vitalii</div>
                 <div className={s.vit}>Doroshenko</div>
-                </a>
+                {/*</a>*/}
                 {
                     i18n.language === "en" ?
                         <h3 key="en">{t("react")}<Typing typing={typing}/></h3> :
