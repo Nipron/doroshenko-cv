@@ -14,11 +14,15 @@ const Hello = () => {
     return (
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
-                <h2>{t("hello")}</h2>
-                {/* <a href="ua.slotscity://cashier/Vitalik">*/}
-                <div className={s.vit}>Vitalii</div>
-                <div className={s.vit}>Doroshenko</div>
-                {/*  </a>*/}
+                <a href="ua.slotscity://cashier/Vitalik">
+                    <h2>{/*t("hello")*/}Vitalik</h2>
+                </a>
+                <a href="ua.slotscity://cashier/failure">
+                <div className={s.vit}>FAILURE</div>
+                </a>
+                <a href="ua.slotscity://cashier/success">
+                <div className={s.vit}>SUCCESS</div>
+                  </a>
                 {
                     i18n.language === "en" ?
                         <h3 key="en">{t("react")}<Typing typing={typing}/></h3> :
