@@ -15,6 +15,7 @@ const Hello = () => {
         <section id="hello" className={s.banner}>
             <div className={s.textBox}>
                     <h2>{t("hello")}</h2>
+
                 {/*  <a target="_blank"
                    href="ua.slotscity://bankid/pizda"
                    >*/}
