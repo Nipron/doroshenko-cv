@@ -16,9 +16,10 @@ const Hello = () => {
             <div className={s.textBox}>
                     <h2>{t("hello")}</h2>
 
-                {/*  <a target="_blank"
+                {/* **  <a target="_blank"
                    href="ua.slotscity://bankid/pizda"
                    >*/}
+
 
                 <div className={s.vit}>Vitalii</div>
                 <div className={s.vit}>Doroshenko</div>
