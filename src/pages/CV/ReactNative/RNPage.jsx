@@ -21,7 +21,7 @@ const RNPage = () => {
                     <h3>SlotsCity</h3>
                     <p>{t("sc1")}</p>
                     <p>{t("sc2")}</p>
-                    <p>{t("sc3")}</p>
+                    {/*<p>{t("sc3")}</p>*/}
                     <br/>
                     <p><a className={s.darkLink} href="https://slotscity.ua" target="_blank">https://slotscity.ua</a></p>
                 </div>
