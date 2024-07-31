@@ -16,12 +16,12 @@ const Contacts = () => {
             </div>
             <div className={s.content}>
                 <div className={s.phone}>
-                    <span>+38 063 342 49 22</span>
-                    <img className={s.viber} src={viber} alt="viber"/>
+                    <span>+420 773 117 926</span>
+                    {/* <img className={s.viber} src={viber} alt="viber"/> */}
                     <img className={s.whatsup} src={whatsup} alt="whatsup"/>
                 </div>
                 <div className={s.email}>
-                    <span>2328221@ukr.net</span>
+                    <span>react.sith@gmail.com</span>
                 </div>
             </div>
         </section>
