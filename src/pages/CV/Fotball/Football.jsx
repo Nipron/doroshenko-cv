@@ -12,8 +12,7 @@ const Football = () => {
             <div className={s.content}>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>=Football</h3>
-                    <p>{t("goodness1")} <a className={s.darkLink} target="_blank" href="https://lightcore.io/">LightCore</a> {t("goodness2")}</p>
-                    {/*<p>{t("goodness1")} <a className={s.darkLink} target="_blank" href="ua.slotscity:///cashier">Slots City</a> {t("goodness2")}</p>*/}
+                    <p>{t("fotball")}</p>
                 </div>
                 <div className={s.w50}>
                     <img src={football} className="img" alt="selfie"/>

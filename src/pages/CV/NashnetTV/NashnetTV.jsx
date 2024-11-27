@@ -15,7 +15,7 @@ const NashnetTV = () => {
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>NashnetTV</h3>
-                    <p>{t("garage")}</p>
+                    <p>{t("nashnettv")}</p>
                     <br/>
                     <p><a className={s.darkLink}  target="_blank" href="https://nms-group.agency">https://nms-group.agency</a></p>
                 </div>
