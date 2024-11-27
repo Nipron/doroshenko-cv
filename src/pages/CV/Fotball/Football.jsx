@@ -12,7 +12,7 @@ const Football = () => {
             <div className={s.content}>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>=Football</h3>
-                    <p>{t("fotball")}</p>
+                    <p>{t("football")}</p>
                 </div>
                 <div className={s.w50}>
                     <img src={football} className="img" alt="selfie"/>
