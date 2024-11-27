@@ -12,7 +12,7 @@ import ReactPage from "./React/ReactPage";
 import RNPage from "./ReactNative/RNPage";
 import Goodness from "./Goodness/Goodness";
 import Garage from "./Garage/Garage";
-import NashnetTV from './NashnetTV/NashnetTv';
+import NashnetTV from './NashnetTV/NashnetTV';
 import Football from './Fotball/Football';
 
 const CVMain = () => {
