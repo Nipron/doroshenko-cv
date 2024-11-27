@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./NashnetTV.module.css";
-import garage from "./../../../images/AppThumbnails/garage.png";
+import nashnettv from "./../../../images/AppThumbnails/garage.png";
 import {useTranslation} from "react-i18next";
 
 const NashnetTV = () => {
@@ -11,7 +11,7 @@ const NashnetTV = () => {
         <section className={s.about}>
             <div className={s.content}>
                 <div className={s.w50}>
-                    <img src={garage} className="img" alt="selfie"/>
+                    <img src={nashnettv} className="img" alt="selfie"/>
                 </div>
                 <div className={s.contentBox + ' ' + s.w50}>
                     <h3>Garage</h3>
