@@ -1,0 +1,90 @@
+.boutique {
+    padding: 2rem 4rem 4rem;
+    color: white;
+    background-color: black;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBox {
+    padding: 5px 25px 0 0;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.contentBox h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btnWrap {
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-indent: 0;
+}
+
+.contactLink {
+    color: yellow;
+}
+
+@media (max-width: 991px) {
+    .heading h2 {
+        font-size: 24px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .contentBox {
+        padding: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .boutique {
+        padding: 30px 20px;
+    }
+}

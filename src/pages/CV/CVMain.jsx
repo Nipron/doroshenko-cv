@@ -12,6 +12,8 @@ import ReactPage from "./React/ReactPage";
 import RNPage from "./ReactNative/RNPage";
 import Goodness from "./Goodness/Goodness";
 import Garage from "./Garage/Garage";
+import NashnetTV from './NashnetTV/NashnetTv';
+import Football from './Fotball/Football';
 
 const CVMain = () => {
     return (
@@ -20,6 +22,8 @@ const CVMain = () => {
             <Hello/>
             <ReactPage/>
             <RNPage/>
+            <NashnetTV/>
+            <Football/>
             <Garage/>
             <Goodness/>
             <About/>

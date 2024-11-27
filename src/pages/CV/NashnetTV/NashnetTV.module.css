@@ -1,0 +1,86 @@
+.about {
+    padding: 2rem;
+    border: 1px solid;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBox {
+    padding: 10px 0 0 20px;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
+.w50 {
+    min-width: calc(50% - 25px);
+}
+
+.darkLink:visited {
+    color: #2196f3;
+}
+
+.darkLink {
+    color: #2196f3;
+}
+
+.about img {
+    max-width: 100%;
+}
+
+.btnWrap {
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: white;
+    margin: 20px 0 0 -25px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-indent: 0;
+}
+
+.gitHubLink {
+    color: #2196f3;;
+}
+
+@media (max-width: 1050px) {
+    .heading h2 {
+        font-size: 24px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .contentBox {
+        padding: 10px 0 0 0;
+    }
+}
